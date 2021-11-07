@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Administrator/.gradle/caches/transforms-2/files-2.1/e7781fe350a3a9f7580eee9833092676/jetified-dkplayer-ui-3.2.6/res/drawable/dkplayer_layer_progress_bar.xml" value="0.3359375" />
+        <entry key="..\:/Users/Administrator/.gradle/caches/transforms-2/files-2.1/e7781fe350a3a9f7580eee9833092676/jetified-dkplayer-ui-3.2.6/res/drawable/dkplayer_seekbar_thumb.xml" value="0.3359375" />
+        <entry key="..\:/Users/Administrator/.gradle/caches/transforms-2/files-2.1/e7781fe350a3a9f7580eee9833092676/jetified-dkplayer-ui-3.2.6/res/drawable/dkplayer_seekbar_thumb_normal.xml" value="0.28425925925925927" />
+        <entry key="..\:/Users/Administrator/.gradle/caches/transforms-2/files-2.1/e7781fe350a3a9f7580eee9833092676/jetified-dkplayer-ui-3.2.6/res/drawable/dkplayer_seekbar_thumb_pressed.xml" value="0.32222222222222224" />
+        <entry key="..\:/Users/Administrator/.gradle/caches/transforms-2/files-2.1/e7781fe350a3a9f7580eee9833092676/jetified-dkplayer-ui-3.2.6/res/layout/dkplayer_layout_vod_control_view.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/Desktop/TiktokDemo/app/src/main/res/layout/activity_main.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/Administrator/Desktop/TiktokDemo/app/src/main/res/layout/activity_viewpager.xml" value="0.3104166666666667" />
+        <entry key="..\:/Users/Administrator/Desktop/TiktokDemo/app/src/main/res/layout/fragment_test.xml" value="0.29981884057971014" />
+        <entry key="..\:/Users/Administrator/Desktop/TiktokDemo/lib_tiktok/src/main/res/drawable/tiktok_progress_bar.xml" value="0.2064814814814815" />
+        <entry key="..\:/Users/Administrator/Desktop/TiktokDemo/lib_tiktok/src/main/res/drawable/tiktok_seekbar_thumb.xml" value="0.32222222222222224" />
+        <entry key="..\:/Users/Administrator/Desktop/TiktokDemo/lib_tiktok/src/main/res/drawable/tiktok_seekbar_thumb_normal.xml" value="0.28425925925925927" />
+        <entry key="..\:/Users/Administrator/Desktop/TiktokDemo/lib_tiktok/src/main/res/drawable/tiktok_seekbar_thumb_pressed.xml" value="0.28425925925925927" />
+        <entry key="..\:/Users/Administrator/Desktop/TiktokDemo/lib_tiktok/src/main/res/layout/activity_tiktok.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/Administrator/Desktop/TiktokDemo/lib_tiktok/src/main/res/layout/item_tiktok.xml" value="0.29583333333333334" />
+        <entry key="..\:/Users/Administrator/Desktop/TiktokDemo/lib_tiktok/src/main/res/layout/item_tiktok_ext.xml" value="0.29583333333333334" />
+        <entry key="..\:/Users/Administrator/Desktop/TiktokDemo/lib_tiktok/src/main/res/layout/layout_media_controller.xml" value="0.29583333333333334" />
+        <entry key="..\:/Users/Administrator/Desktop/TiktokDemo/lib_tiktok/src/main/res/layout/layout_seekbar_control_view.xml" value="0.16109422492401215" />
+        <entry key="..\:/Users/Administrator/Desktop/TiktokDemo/lib_tiktok/src/main/res/layout/layout_tiktop_top.xml" value="0.25833333333333336" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

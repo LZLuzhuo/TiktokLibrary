@@ -1,0 +1,3 @@
+include ':lib_tiktok', ':lib_refresh'
+include ':app'
+rootProject.name = "TiktokDemo"

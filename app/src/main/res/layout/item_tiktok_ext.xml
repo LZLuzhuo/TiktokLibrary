@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tiktok_dianzan_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toTopOf="@+id/tiktok_pinglun"
+        app:layout_constraintEnd_toEndOf="@+id/tiktok_dianzan"
+        app:layout_constraintStart_toStartOf="@+id/tiktok_dianzan" />
+
+    <TextView
+        android:id="@+id/tiktok_shangremen_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="上推广"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tiktok_shangremen"
+        app:layout_constraintStart_toStartOf="@+id/tiktok_shangremen" />
+
+    <ImageView
+        android:id="@+id/tiktok_shangremen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:src="@mipmap/wansuo_video_icon_hot"
+        app:layout_constraintBottom_toTopOf="@+id/tiktok_shangremen_tv"
+        app:layout_constraintEnd_toEndOf="@+id/tiktok_share"
+        app:layout_constraintStart_toStartOf="@+id/tiktok_share" />
+
+    <TextView
+        android:id="@+id/tiktok_share_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:text="分享"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toTopOf="@+id/tiktok_shangremen"
+        app:layout_constraintEnd_toEndOf="@+id/tiktok_share"
+        app:layout_constraintStart_toStartOf="@+id/tiktok_share" />
+
+    <ImageView
+        android:id="@+id/tiktok_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:src="@mipmap/wansuo_video_icon_share"
+        app:layout_constraintBottom_toTopOf="@+id/tiktok_share_tv"
+        app:layout_constraintEnd_toEndOf="@+id/tiktok_pinglun"
+        app:layout_constraintStart_toStartOf="@+id/tiktok_pinglun" />
+
+    <TextView
+        android:id="@+id/tiktok_pinglun_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toTopOf="@+id/tiktok_share"
+        app:layout_constraintEnd_toEndOf="@+id/tiktok_pinglun"
+        app:layout_constraintStart_toStartOf="@+id/tiktok_pinglun" />
+
+    <ImageView
+        android:id="@+id/tiktok_pinglun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:src="@mipmap/wansuo_video_icon_comment"
+        app:layout_constraintBottom_toTopOf="@+id/tiktok_pinglun_count"
+        app:layout_constraintEnd_toEndOf="@+id/tiktok_dianzan"
+        app:layout_constraintStart_toStartOf="@+id/tiktok_dianzan" />
+
+    <ImageView
+        android:id="@+id/tiktok_dianzan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:src="@mipmap/wansuo_video_icon_like_unchecked"
+        app:layout_constraintBottom_toTopOf="@+id/tiktok_dianzan_count"
+        app:layout_constraintEnd_toEndOf="@+id/tiktok_header"
+        app:layout_constraintStart_toStartOf="@+id/tiktok_header" />
+
+    <ImageView
+        android:id="@+id/tiktok_header"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/wansuo_default"
+        app:layout_constraintBottom_toTopOf="@+id/tiktok_dianzan"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/tiktok_guanzhu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/wansuo_video_icon_attention"
+        app:layout_constraintBottom_toBottomOf="@+id/tiktok_header"
+        app:layout_constraintEnd_toEndOf="@+id/tiktok_header"
+        app:layout_constraintStart_toStartOf="@+id/tiktok_header"
+        app:layout_constraintTop_toBottomOf="@+id/tiktok_header" />
+
+    <TextView
+        android:id="@+id/tiktok_content"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="40dp"
+        android:text="北欧风棉麻布料在线购买价格更优惠,速度抢购!!!! 也可加入代理"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tiktok_shangremen_tv"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tiktok_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="18dp"
+        android:text="杭州北欧风布料总代理"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tiktok_content"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/tiktok_jindian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:src="@mipmap/wansuo_video_icon_jingrudianpu"
+        app:layout_constraintBottom_toBottomOf="@+id/tiktok_title"
+        app:layout_constraintStart_toEndOf="@+id/tiktok_title"
+        app:layout_constraintTop_toTopOf="@+id/tiktok_title" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

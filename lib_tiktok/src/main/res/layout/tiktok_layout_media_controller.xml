@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/media_controller"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/media_thumb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:adjustViewBounds="true"/>
+
+    <ImageView
+        android:id="@+id/media_play"
+        android:layout_width="@dimen/dkplayer_play_btn_size"
+        android:layout_height="@dimen/dkplayer_play_btn_size"
+        android:layout_gravity="center"
+        android:src="@mipmap/tiktok_icon_controller_player"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+</FrameLayout>
