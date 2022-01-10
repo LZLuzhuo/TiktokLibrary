@@ -6,7 +6,6 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.INTERNET"/>
 
-    <application>
-        <activity android:name="com.example.tiktokdemo.tiktok.TiktokActivityDemo" />
-    </application>
+    <application
+        android:allowNativeHeapPointerTagging="false" />
 </manifest>

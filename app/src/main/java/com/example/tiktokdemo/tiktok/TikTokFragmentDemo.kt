@@ -147,7 +147,7 @@ class TikTokFragmentDemo : Fragment() {
                 mVideoView.setUrl(playUrl)
                 mController.addControlComponent(viewHolder.item_tiktok_video, true)
                 viewHolder.media_controller.addView(mVideoView, 0)
-                isPlayed = if (userVisibleHint) {
+                isPlayed = if (userVisibleHint && true /* TODO 确保Fragment在视频页 */) {
                     mVideoView.start()
                     true
                 } else false

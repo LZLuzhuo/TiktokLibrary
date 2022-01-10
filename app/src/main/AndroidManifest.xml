@@ -20,6 +20,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".ViewPagerActivity"/>
+        <activity android:name=".tiktok.TiktokActivityDemo" />
     </application>
 
 </manifest>

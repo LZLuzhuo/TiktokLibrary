@@ -13,3 +13,9 @@
 .externalNativeBuild
 .cxx
 local.properties
+gradle.properties
+*maven.gradle
+*jcenter.gradle
+*mavenCentral.gradle
+/.idea
+/lib_refresh

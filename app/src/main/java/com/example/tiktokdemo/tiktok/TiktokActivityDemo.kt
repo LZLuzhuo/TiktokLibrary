@@ -224,7 +224,7 @@ class TiktokActivityDemo : AppCompatActivity() {
                     // TODO 获取结果
                     val list = ArrayList<TiktokBean>()
                     repeat(10) {
-                        list.add(TiktokBean("https://t7.baidu.com/it/u=4036010509,3445021118&fm=193&f=GIF", "http://data.luzhuo.me/data/video.mp4", TikTokExt(0)))
+                        list.add(TiktokBean("http://data.luzhuo.me/data/video_cover.jpg", "http://data.luzhuo.me/data/video.mp4", TikTokExt(0)))
                     }
 
                     if (tiktokAdapter.isRefresh) { // 刷新

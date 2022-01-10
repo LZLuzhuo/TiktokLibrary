@@ -47,5 +47,5 @@ dependencies {
     api "com.github.dueeeke.dkplayer:videocache:3.2.6" // 缓存
 
     compileOnly "com.github.bumptech.glide:glide:4.10.0"
-    compileOnly 'me.luzhuo.android:lib_okhttp:1.0.7-SNAPSHOT'
+    compileOnly 'me.luzhuo.android:lib_okhttp:1.0.18'
 }
